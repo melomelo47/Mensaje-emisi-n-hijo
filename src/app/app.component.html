@@ -1,0 +1,9 @@
+
+<p> Emisión </p>
+<!-- Aca es donde se propaga el evento al padre-->
+<app-emisor
+(emisorHijo) = "recibirEmision($event)"
+></app-emisor>
+
+<p>Mensaje de la emisión: {{name}}</p>
+<!-- Se trata de un evento por eso va dentro de () y no []-->
